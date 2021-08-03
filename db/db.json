@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tuan",
+      "email": "lebathanhtuan@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Ahihi",
+      "email": "ahihi@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "iPhone"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 12",
+      "categoryId": 1,
+      "price": 10000000
+    },
+    {
+      "id": 2,
+      "name": "iPhone 12 Pro",
+      "categoryId": 1,
+      "price": 20000000
+    },
+    {
+      "id": 3,
+      "name": "iPhone 12 Mini",
+      "categoryId": 1,
+      "price": 5000000
+    },
+    {
+      "id": 4,
+      "name": "Galaxy S21",
+      "categoryId": 2,
+      "price": 10000000
+    },
+    {
+      "id": 5,
+      "name": "Galaxy Note 20",
+      "categoryId": 2,
+      "price": 20000000
+    },
+    {
+      "id": 6,
+      "name": "Galaxy S10",
+      "categoryId": 2,
+      "price": 5000000
+    },
+    {
+      "id": 7,
+      "createAt": 1627971980875,
+      "name": "1111111111",
+      "price": 1111111111
+    },
+    {
+      "id": 8,
+      "createAt": 1627971985827,
+      "name": "222",
+      "price": 2222
+    }
+  ],
+  "todos": [],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Ahihi máy đẹp quá",
+      "rating": 5,
+      "userId": 1,
+      "productId": 2
+    },
+    {
+      "id": 2,
+      "content": "Ahihi ahoho",
+      "rating": 4,
+      "userId": 2,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "content": "Máy xấu bỏ xừ",
+      "rating": 1,
+      "userId": 1,
+      "productId": 1
+    }
+  ]
+}
