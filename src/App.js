@@ -34,7 +34,7 @@ const THEME = {
 }
 
 function App(props) {
-  const { theme } = useSelector((state) => state.commonReducer);
+  const  {theme}  = useSelector((state) => state.commonReducer);
 
   return (
     <ThemeProvider theme={THEME[theme]}>

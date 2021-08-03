@@ -61,18 +61,6 @@
       "name": "Galaxy S10",
       "categoryId": 2,
       "price": 5000000
-    },
-    {
-      "id": 7,
-      "createAt": 1627971980875,
-      "name": "1111111111",
-      "price": 1111111111
-    },
-    {
-      "id": 8,
-      "createAt": 1627971985827,
-      "name": "222",
-      "price": 2222
     }
   ],
   "todos": [],

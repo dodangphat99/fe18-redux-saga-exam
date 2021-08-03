@@ -30,18 +30,18 @@ function* editProductSaga(action) {
   console.log(action.payload);
   try {
     const result = yield axios.put(`http://localhost:3001/products/${action.payload.id}`,action.payload);
-    yield put({ type: "GET_PRODUCT_LIST_SUCCESS", payload: result });
+    yield put({ type: PRODUCT_ACTION.EDIT_PRODUCT_SUCCESS, payload: result });
   } catch (e) {
-    yield put({ type: "GET_PRODUCT_LIST_FAIL", payload: e.message });
+    yield put({ type: PRODUCT_ACTION.EDIT_PRODUCT_FAIL, payload: e.message });
   }
 }
 
 function* deleteProductSaga(action) {
   try {
     const result = yield axios.delete(`http://localhost:3001/products/${action.payload.id}`);
-    yield put({ type: "GET_PRODUCT_LIST_SUCCESS", payload: result });
+    yield put({ type: PRODUCT_ACTION.DELETE_PRODUCT_SUCCESS, payload: result });
   } catch (e) {
-    yield put({ type: "GET_PRODUCT_LIST_FAIL", payload: e.message });
+    yield put({ type: PRODUCT_ACTION.DELETE_PRODUCT_FAIL, payload: e.message });
   }
 }
 
